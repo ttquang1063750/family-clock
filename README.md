@@ -1,5 +1,5 @@
-# Family Clock (Canvas)
-````
+## Family Clock (Canvas)
+```
  <div class="container">
     <canvas id="clock"></canvas>
 </div>
@@ -21,4 +21,7 @@
         }
     ])
 </script>
+
 ```
+## Page
+- [Demo](https://ttquang1063750.github.io/family-clock/)
