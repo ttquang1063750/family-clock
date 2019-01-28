@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Family Clock</title>
+    <style>
+        .container{
+            width: 90vh;
+            margin: 5vh auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <canvas id="clock"></canvas>
+    </div>
+    <script src="Vector.js"></script>
+    <script src="family-clock.js"></script>
+    <script>
+        new ClockComponent(document.getElementById('clock'), [
+        {
+            name: 'second',
+            url: 'images/son.png'
+        },
+        {
+            name: 'minute',
+            url: 'images/mom.png'
+        },
+        {
+            name: 'hour',
+            url: 'images/dad.png'
+        }
+        ])
+    </script>
+</body>
+</html>
